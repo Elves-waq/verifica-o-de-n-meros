@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(54, 61, 77);
+    font: normal 15pt arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.area_apresent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.area_apresent legend{
+    align-self: flex-start;
+}
+#txtValor{
+    width: 100px;
+    margin-top: -20px;
+    margin-left: -50px;
+    margin-bottom:10px ;
+}
+#btn1{
+    width: 100px;
+    margin-left: -45px;
+    margin-bottom: 10px;
+}
+select{
+    height: 200px;
+    width: 150px;
+}
+#btnFnz{
+    margin-top: 10px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+}
